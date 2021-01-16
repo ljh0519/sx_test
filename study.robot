@@ -7,6 +7,8 @@ return form keyword
     comment    ${b}    Return From Keyword If    "${a}" == "abc"    bc
 
 random
+    
+得到的
     ${str}    Evaluate    string.ascii_letters    string
     ${len}    Get Length    ${str}
     ${num}    Set Variable    10
